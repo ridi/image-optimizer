@@ -2,6 +2,8 @@
 
 # image-optimizer
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ridi/image-optimizer.svg)](https://greenkeeper.io/)
+
 ## Requirement
 
 1. AWS Resource (S3, CDN, Lambda, ApiGateway)
