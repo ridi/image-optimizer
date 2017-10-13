@@ -1,0 +1,7 @@
+{
+    "BUCKET_NAME": "{BUCKET}",
+    "FILE_CACHE_AGE": "{CACHE_AGE}",
+    "CDN": "{CDN}",
+    "DEFAULT_QUALITY": 82,
+    "DEFAULT_PATH": "{CACHE_PATH_IN_BUCKET}"
+}
