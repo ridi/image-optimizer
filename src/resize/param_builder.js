@@ -35,9 +35,7 @@ function buildParams(cachedDir) {
     switch (cmd[0]) {
       case 'int': {
         const parameters = args.slice(index + 1, index + 1 + cmd[1]);
-        const isAllNumbers = parameters.every(
-          parameter => !isNaN(parseInt(parameter, 10))
-        );
+        const isAllNumbers = parameters.every(parameter => !isNaN(parseInt(parameter, 10)));
         if (!isAllNumbers) {
           throw new Error('Your request is malformed.');
         }
