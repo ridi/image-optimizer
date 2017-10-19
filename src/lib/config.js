@@ -1,7 +1,5 @@
-/* eslint-disable wrap-iife */
 /* eslint-disable global-require */
 /* eslint-disable import/no-dynamic-require */
-
 
 const config = (() => {
   const configPath = `../../${process.env.CONFIG}`;
@@ -9,4 +7,3 @@ const config = (() => {
 })();
 
 module.exports = config;
-

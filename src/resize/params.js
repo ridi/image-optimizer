@@ -2,7 +2,7 @@
 const config = require('../lib/config');
 
 const has = Object.prototype.hasOwnProperty; // cache the lookup once, in module scope
-const DEFAULT_QUALITY = config.DEFAULT_QUALITY;
+const { DEFAULT_QUALITY } = config;
 
 class Params {
   parseCmds(cmds) {
