@@ -1,6 +1,3 @@
-/* eslint-disable no-param-reassign */
-/* eslint-disable no-confusing-arrow */
-/* eslint-disable comma-dangle */
 
 const Raven = require('raven');
 const RavenLambdaWrapper = require('serverless-sentry-lib');
@@ -13,8 +10,9 @@ const logger = require('../lib/logger');
 
 const ravenConfig = {
   captureTimeoutWarnings: false,
-  ravenClient: Raven
+  ravenClient: Raven,
 };
+
 exports.main = RavenLambdaWrapper.handler(ravenConfig, (event, context, callback) => {
   const path = event.path.substr(1);
   if (path === 'favicon.ico') {
