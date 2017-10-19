@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@ridi/eslint-config": "^3.1.0",
-    "eslint": "^3.19.0"
+    "eslint": "^4.9.0"
   },
   "scripts": {
     "lint": "./node_modules/.bin/eslint **/*.js",
