@@ -2,7 +2,6 @@
 
 # image-optimizer
 [![Build Status](https://travis-ci.org/ridi/image-optimizer.svg?branch=master)](https://travis-ci.org/ridi/image-optimizer)
-asdfas
 
 ## Requirement
 
